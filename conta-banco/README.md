@@ -1,18 +1,15 @@
-## Getting Started
+## Exercício de criação de um app de conta bancária em Java, praticando conceitos básicos da linguagem
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+É criado programa chamado BancoTerminal.java para implementar o algorítmo conforme abaixo:
 
-## Folder Structure
+O programa deverá simular uma operação de saque onde:
 
-The workspace contains two folders by default, where:
+    Terá uma variável denominada saldo do tipo double contendo o valor inicial igual a 25;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    Terá uma variável denominada de valor solicitado do tipo double contendo o valor inicial igual a 18;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    Criar uma expressão relacional para que caso o saldo seja maior que o valor solicitado, o saldo recebe o novo valor como saldo é igual saldo menos o valor solicitado. Caso o saldo seja menor que o valor solicitado, devemos exibir a mensagem "Saldo insuficiente";
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    Imprima o valor do saldo;
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    Em seguida, realizar a mesma execução do programana agora com os valores saldo igual a 15 e valor solicitado igual a 22 e exiba o resultado;
