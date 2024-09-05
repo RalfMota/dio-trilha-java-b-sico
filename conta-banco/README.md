@@ -1,15 +1,24 @@
 ## Exercício de criação de um app de conta bancária em Java, praticando conceitos básicos da linguagem
 
-É criado programa chamado BancoTerminal.java para implementar o algorítmo conforme abaixo:
+    #Objetivos
 
-O programa deverá simular uma operação de saque onde:
+    Criar o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos:
 
-    Terá uma variável denominada saldo do tipo double contendo o valor inicial igual a 25;
+    Numero
+    Agencia 	
+    Nome Cliente 
+    Saldo 
 
-    Terá uma variável denominada de valor solicitado do tipo double contendo o valor inicial igual a 18;
+    Dentro do projeto, é criada a classe ContaTerminal.java para realizar toda a codificação do programa.
 
-    Criar uma expressão relacional para que caso o saldo seja maior que o valor solicitado, o saldo recebe o novo valor como saldo é igual saldo menos o valor solicitado. Caso o saldo seja menor que o valor solicitado, devemos exibir a mensagem "Saldo insuficiente";
+    Permitindo que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
 
-    Imprima o valor do saldo;
+    Programa: "Por favor, digite o número da Agência !"
+    Usuário: 1021 (depois ENTER para o próximo campo)
 
-    Em seguida, realizar a mesma execução do programana agora com os valores saldo igual a 15 e valor solicitado igual a 22 e exiba o resultado;
+
+    Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+
+    "Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".
+
+    Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
